@@ -1,5 +1,8 @@
-def main():
+import asyncio
+from dotenv import load_dotenv
+load_dotenv()
+async def main():
     print("Hello from mcp")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
